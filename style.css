@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.music{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://mcdn.wallpapersafari.com/medium/30/80/O5PqQR.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;    
+}
+.nav{
+    margin:auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0; 
+    margin-left: 1%;  
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+    margin: left 100%; 
+}
+.nav ul li a {
+    color: #f7f6f6;
+    font-weight: lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.write{
+    width: 100%;
+    color: #f7f6f6;
+    position: absolute;
+    top: 59%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.icon{
+    color: #f7f6f6;
+    margin-left: 82%;
+    margin-top: 14%;
+    display: flex;
+    align-items: center;
+}
+
+section .topic a {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+ .side1{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/aboutimage.jpg');
+    background-size: cover;
+    background-attachment:scroll;
+    background-position: center;
+    padding: 100px; 
+   
+ } 
+ .side1 h3{
+    margin-left: 33%;
+    margin-right: 25%;
+    margin-top: 4%;
+ }
+ .side1 h1{
+    margin-left: 47%;
+    font-size: 50px;
+
+ }
+ .side1 button{
+    margin-left: 47%;
+    margin-top: 3%;
+ }
+ .side1 a{
+    color:black;
+ }
+ 
+.speci .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image:url('https://e1.pxfuel.com/desktop-wallpaper/947/2/desktop-wallpaper-sony-ps4-game-sony-playstation-4-video-ps4-retrowave.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:#f7f6f6;
+    border-color: #f7f6f6;
+    
+}
+
+.speci .boxes .box {
+    margin: 10px 25px;
+    height: 50%;
+    max-width: calc(100% / 3 - 50px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+}
+  
+/* Contact Page  */
+  
+.contact {
+    padding: 20px;
+   
+}
+  
+.contact .content {
+    margin: 0 auto;
+    padding: 30px 0;
+    background-image: 'https://wallpaperaccess.com/full/876554.jpg';
+}
+  
+.content .title {
+    width: 80%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+  
+.title {
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+  
+.contactMenu {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.input2 {
+    margin-top: 10;
+}
+  
+.label1 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+  
+.contactMenu .input1 input {
+    border-radius: 13px;
+    padding: 6px;
+}
+  
+.input2 input {
+    border-color: rgb(252, 244, 244);
+    width: 400px;
+}
+  
+.button {
+    margin-top: 12px;
+    margin-left: 5px;
+}
+  
+.button button {
+    width: 162px;
+    height: 35px;
+    border-radius: 12px;
+    border-color: transparent;
+}
+  
+.button button:hover {
+    background-color: #7a817b;
+}
+  
+button {
+    width: 162px;
+    height: 35px;
+    border-radius: 12px;
+    border-color: transparent;
+}
+  
+button:hover {
+    background-color: #626b64;
+}
+  
+.rightside1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+  
+.title1 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+  
+.content1 {
+    width: 450px;
+    margin-top: 2px;
+    color: grey;
+}
+  
+/* Footer */
+footer {
+    background: var(--primary-color);
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+  
+footer .footer span {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+  
+footer .footer span a {
+    font-weight: 500;
+    color: var(--white-color);
+}
+  
+footer .footer span a:hover {
+    text-decoration: underline;
+    text-decoration-color:red;
+}
+  
+@media screen and (max-width: 1060px) {
+    .contactMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .rightside1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+  
+    .content1 {
+        width: 100%;
+        margin-top: 2px;
+        color: grey;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    
+    section .topic a {
+        font-size: 20px;
+    }
+  
+    section .topic p {
+        font-size: 5px;
+    }
+  
+    .about .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .about .boxes .box {
+        max-width: 70%;
+    }
+}
